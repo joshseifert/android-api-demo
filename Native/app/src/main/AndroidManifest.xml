@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.joshseifert.android.finalproject" >
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name=".MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SignUp"
+            android:label="Create a new account"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".User"
+            android:label="User Page"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".UserSettings"
+            android:label="User Settings"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".EditSession"
+            android:label="View Session"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".AddLift"
+            android:label="Add a Lift"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".EditLift"
+            android:label="Edit a Lift"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".GetPumped"
+            android:label="GET PUMPED"
+            android:theme="@style/AppTheme" />
+    </application>
+
+</manifest>

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">FinalProject</string>
+    <string name="loginTitle">STRENGTH TRACKER</string>
+    <string name="loginPrompt">Login to your account</string>
+    <string name="loginUsernamePrompt">Username:</string>
+    <string name="loginUsernameHint">username</string>
+    <string name="loginPasswordPrompt">Password:</string>
+    <string name="loginPasswordHint">password</string>
+    <string name="loginSignupPrompt">No account? Sign up here!</string>
+    <string name="loginSignupButton">Sign Up</string>
+    <string name="loginLoginButton">Log In</string>
+    <string name="signupCreatePrompt">Create a new account</string>
+    <string name="signupUsernamePrompt">Username:</string>
+    <string name="signupUsernameHint">username</string>
+    <string name="signupPasswordHint">password</string>
+    <string name="signupPasswordPrompt">Password:</string>
+    <string name="signupPasswordConfirmPrompt">Confirm Password:</string>
+    <string name="signupPasswordConfirmHint">password</string>
+    <string name="signupRegisterButtonText">Register</string>
+    <string name="signupCancelButtonText">Cancel</string>
+    <string name="userLogoutButton">Logout</string>
+    <string name="userEditButtonText">User Settings</string>
+</resources>
